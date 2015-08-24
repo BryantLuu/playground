@@ -7,3 +7,6 @@ app.use(bodyParser.json());
 
 require('./config/mongoose.js');
 require('./config/routes.js')(app);
+app.listen(8000,function (){
+  
+})
